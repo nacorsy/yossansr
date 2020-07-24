@@ -37,6 +37,9 @@ export const Item = styled.div`
 
 export const Content = styled.div`
   padding: 1rem 0;
+  p {
+    font-family: 'Quattrocento Sans', Helvetica, sans-serif;
+  }
 `;
 
 export const Stats = styled.div`

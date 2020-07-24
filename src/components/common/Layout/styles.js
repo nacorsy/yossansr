@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const Global = createGlobalStyle`
   html {
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Work Sans', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 
@@ -602,9 +602,9 @@ export const Global = createGlobalStyle`
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Roboto', Helvetica, sans-serif;
+      font-family: 'Work Sans', Helvetica, sans-serif;
       color: ${({ theme }) => (theme === 'light' ? 'hsla(0, 0%, 0%, 0.8)' : '#fff')};
-      background-color: ${({ theme }) => (theme === 'light' ? '#fff' : '#212121')};
+      background-color: ${({ theme }) => (theme === 'light' ? '#fcfcfc' : '#162447')};
       transition: .3s all;
       font-weight: normal;
       word-wrap: break-word;

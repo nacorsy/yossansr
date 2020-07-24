@@ -1,10 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.616 263.747">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #efeeff;
-      }
-    </style>
-  </defs>
-  <path id="Path_300" data-name="Path 300" class="cls-1" d="M1920,2358.631s-146.923,99.446-132.638,199.992S1920,2610.7,1920,2610.7Z" transform="translate(-1786.384 -2358.631)"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 134 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Path_300" transform="matrix(1,0,0,1,-1786.38,-2358.63)">
+        <path d="M1920,2358.63C1920,2358.63 1773.08,2458.08 1787.36,2558.62C1801.65,2659.17 1920,2610.7 1920,2610.7L1920,2358.63Z" style="fill:rgb(252,191,30);fill-rule:nonzero;"/>
+    </g>
 </svg>

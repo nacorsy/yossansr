@@ -38,13 +38,15 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
-
+  margin-top: -7%;
   @media (max-width: 960px) {
     width: 100%;
     margin-bottom: 2rem;
+    margin-top: 0;
+    text-align: center;
   }
 
   img {
-    width: 100%;
+    width: 90%;
   }
 `;

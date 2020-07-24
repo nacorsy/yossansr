@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   background-size: contain;
   background-position: left top;
   background-repeat: no-repeat;
+  text-align: center;
 `;
 
 export const SkillsWrapper = styled.div`
@@ -26,12 +27,13 @@ export const Details = styled.div`
   @media (max-width: 960px) {
     padding-left: unset;
     width: 100%;
+    margin-top: 30px;
   }
 
   h1 {
     margin-bottom: 2rem;
     font-size: 26pt;
-    color: ${({ theme }) => (theme === 'dark' ? '#fff' : '#212121')};
+    color: ${({ theme }) => (theme === 'light' ? '#52525E' : '#FCFCFC')};
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
@@ -43,7 +45,8 @@ export const Details = styled.div`
     font-size: 20pt;
     font-weight: normal;
     line-height: 1.3;
-    color: ${({ theme }) => (theme === 'dark' ? '#c7c7c7' : '#707070')};
+    color: ${({ theme }) => (theme === 'light' ? '#52525E' : 'rgba(252,252,252,0.8)')};
+    font-family: 'Quattrocento Sans', Helvetica, sans-serif;
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};

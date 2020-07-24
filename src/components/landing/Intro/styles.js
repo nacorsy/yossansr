@@ -17,6 +17,7 @@ export const IntroWrapper = styled.div`
 
   @media (max-width: 960px) {
     flex-direction: column;
+    flex-direction: column-reverse;
   }
 `;
 
@@ -25,13 +26,16 @@ export const Details = styled.div`
 
   @media (max-width: 960px) {
     width: 100%;
-    margin-bottom: 2rem;
+
+    text-align: center;
+
+    margin-bottom: 1rem;
   }
 
   h1 {
     margin-bottom: 2rem;
     font-size: 36pt;
-    color: ${({ theme }) => (theme === 'light' ? '#212121' : '#fff')};
+    color: ${({ theme }) => (theme === 'light' ? '#52525E' : '#FCFCFC')};
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
@@ -44,9 +48,10 @@ export const Details = styled.div`
 
   h4 {
     margin-bottom: 2.5rem;
-    font-size: 32pt;
+    font-size: 24pt;
     font-weight: normal;
-    color: ${({ theme }) => (theme === 'light' ? '#707070' : '#e6e6e6')};
+    font-family: 'Quattrocento Sans', Helvetica, sans-serif;
+    color: ${({ theme }) => (theme === 'light' ? '#52525E' : 'rgba(252,252,252,0.8)')};
 
     @media (max-width: 960px) {
       mix-blend-mode: ${({ theme }) => (theme === 'light' ? 'unset' : 'difference')};
@@ -60,12 +65,20 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
-
   @media (max-width: 960px) {
+    display: flex;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
   }
 
   img {
-    width: 100%;
+    margin-left: 30%;
+    width: 60%;
+    border-radius: 100%;
+    @media (max-width: 960px) {
+      margin: 0;
+    }
   }
 `;

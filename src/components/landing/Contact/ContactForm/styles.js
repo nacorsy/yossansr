@@ -10,6 +10,10 @@ export const Center = styled.div`
   h4 {
     font-weight: normal;
   }
+
+  @media (max-width: 960px) {
+    text-align: center;
+  }
 `;
 
 export const InputField = styled.div`
