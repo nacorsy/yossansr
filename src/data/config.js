@@ -4,7 +4,7 @@ module.exports = {
   author: 'Yossan Rahmadi',
   url: 'https://portfolio.smakosh.com',
   legalName: 'Yossan Rahmadi',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  defaultDescription: 'A Ravenclaw that using code as spell',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/smakosh',
