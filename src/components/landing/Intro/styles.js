@@ -16,6 +16,7 @@ export const IntroWrapper = styled.div`
   justify-content: space-between;
 
   @media (max-width: 960px) {
+    padding: 0;
     flex-direction: column;
     flex-direction: column-reverse;
   }
@@ -30,6 +31,7 @@ export const Details = styled.div`
     text-align: center;
 
     margin-bottom: 1rem;
+    margin-top: 3rem;
   }
 
   h1 {
